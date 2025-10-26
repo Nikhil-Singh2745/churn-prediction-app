@@ -148,15 +148,15 @@ def main():
         config = {
             'credentials': {
                 'usernames': {
-                    st.secrets["credentials"]["usernames"]["jsmith"]["username"]: {
-                        'email': st.secrets["credentials"]["usernames"]["jsmith"]["email"],
-                        'name': st.secrets["credentials"]["usernames"]["jsmith"]["name"],
-                        'password': st.secrets["credentials"]["usernames"]["jsmith"]["password"]
+                    st.secrets["credentials"]["usernames"]["test1"]["username"]: {
+                        'email': st.secrets["credentials"]["usernames"]["test1"]["email"],
+                        'name': st.secrets["credentials"]["usernames"]["test1"]["name"],
+                        'password': st.secrets["credentials"]["usernames"]["test1"]["password"]
                     },
-                    st.secrets["credentials"]["usernames"]["rdoe"]["username"]: {
-                        'email': st.secrets["credentials"]["usernames"]["rdoe"]["email"],
-                        'name': st.secrets["credentials"]["usernames"]["rdoe"]["name"],
-                        'password': st.secrets["credentials"]["usernames"]["rdoe"]["password"]
+                    st.secrets["credentials"]["usernames"]["test2"]["username"]: {
+                        'email': st.secrets["credentials"]["usernames"]["test2"]["email"],
+                        'name': st.secrets["credentials"]["usernames"]["test2"]["name"],
+                        'password': st.secrets["credentials"]["usernames"]["test2"]["password"]
                     }
                 }
             },
