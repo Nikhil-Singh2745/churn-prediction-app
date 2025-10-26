@@ -1,0 +1,16 @@
+# --- Secrets ---
+config.yaml
+
+# --- Database ---
+*.db
+
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+
+# --- Helper Scripts ---
+generate_keys.py
+
+# --- OS ---
+.DS_Store

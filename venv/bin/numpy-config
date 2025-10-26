@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/home/niksinghsnr2745/ML_Projects/Customer churn prediction/churn-app/venv/bin/python3" "$0" "$@"
+'''exec' "/home/niksinghsnr2745/ML Projects/churn-prediction-app/venv/bin/python3" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
